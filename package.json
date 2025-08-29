@@ -2,7 +2,7 @@
   "name": "thermweave-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://spaceboy404.github.io/my-site/",
+  "homepage": "https://thermweave.com/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
