@@ -286,8 +286,13 @@ export default function ThermweaveLanding() {
             </div>
             {/*<div className="rounded-2xl border border-white/10 p-6">
               <p className="text-sm text-slate-300">Thermal testing</p>
+<<<<<<< Updated upstream
               <p className="mt-1 font-display text-lg">Instruments by Thermtest</p>
             </div>*/}
+=======
+              <p className="mt-1 font-display text-lg">Instruments by Lead Provider</p>
+            </div>
+>>>>>>> Stashed changes
             <div className="rounded-2xl border border-white/10 p-6">
               <p className="text-sm text-slate-300">Pilot & manufacturing</p>
               <p className="mt-1 font-display text-lg">Seeking partners</p>
