@@ -25,7 +25,7 @@ export default function ThermweaveLanding() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: Replace with your real email. This uses a simple mailto fallback.
-    const target = "hello@thermweave.co"; // ← change me
+    const target = "isaac@thermweave.com"; // ← change me
     const subject = `Thermweave Inquiry — ${form.company || form.name || "Website"}`;
     const body = `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company}\n\n${form.message}`;
     const mailto = `mailto:${encodeURIComponent(target)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -108,7 +108,7 @@ export default function ThermweaveLanding() {
                 {[
                   { label: "Wash durability", value: "Target: <20% loss @100 cycles" },
                   { label: "Manufacturing", value: "Scalable dip‑coat process" },
-                  { label: "Status", value: "In development w/ UNB" },
+                  { label: "Status", value: "Seeking research partners" },
                 ].map((s) => (
                   <div key={s.label} className="rounded-2xl border border-white/10 p-4">
                     <dt className="text-xs text-slate-400">{s.label}</dt>
@@ -133,7 +133,7 @@ export default function ThermweaveLanding() {
                   </li>
                   <li className="flex items-start gap-3"><Leaf className="mt-0.5 h-4 w-4 text-lime-300" /> Breathable base fabrics; comfort‑first design.</li>
                   <li className="flex items-start gap-3"><Factory className="mt-0.5 h-4 w-4 text-sky-300" /> Process designed for roll‑to‑roll scale.</li>
-                  <li className="flex items-start gap-3"><FlaskConical className="mt-0.5 h-4 w-4 text-fuchsia-300" /> Built with university research partners.</li>
+                  <li className="flex items-start gap-3"><FlaskConical className="mt-0.5 h-4 w-4 text-fuchsia-300" /> Built to last.</li>
                 </ul>
               </div>
             </motion.div>
@@ -220,7 +220,7 @@ export default function ThermweaveLanding() {
             <div>
               <h2 className="font-display text-3xl sm:text-4xl">Performance & Roadmap</h2>
               <ul className="mt-4 space-y-3 text-slate-300">
-                <li className="flex gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-sky-400" /> Laboratory program underway with UNB partners.</li>
+                <li className="flex gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-sky-400" /> Exploring opportunities to collaborate with research partners.</li>
                 <li className="flex gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-cyan-300" /> Targeting <em>roll‑to‑roll</em> process transfer and pilot in 12–18 months.</li>
                 <li className="flex gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-indigo-300" /> Wash‑durability goal: &lt; 20% thermal loss after 100 gentle cycles.</li>
               </ul>
@@ -275,14 +275,14 @@ export default function ThermweaveLanding() {
           <div className="mb-8">
             <h2 className="font-display text-3xl sm:text-4xl">Partners & Collaboration</h2>
             <p className="font-body mt-2 max-w-2xl text-slate-300">
-              We collaborate with the University of New Brunswick and industry groups on testing and scale‑up. We welcome inquiries from apparel, bedding, and technical textile brands.
+              We look to collaborate with universities and industry groups on testing and scale‑up. We welcome inquiries from apparel, bedding, and technical textile brands.
             </p>
           </div>
 
           <div className="grid gap-6 lg:grid-cols-3">
             <div className="rounded-2xl border border-white/10 p-6">
-              <p className="text-sm text-slate-300">Academic research partnership</p>
-              <p className="mt-1 font-display text-lg">Applied Nanotechnology Lab (UNB)</p>
+              <p className="text-sm text-slate-300">Looking for academic research partnership</p>
+              <p className="mt-1 font-display text-lg">Get in contact with us</p>
             </div>
 
             <div className="rounded-2xl border border-white/10 p-6">
